@@ -20,6 +20,7 @@ func slidingWindowSum(data: [Int], window: Int) -> [Int] {
 }
 
 func day01(){
+    print("Day 01")
     let input = try! String(contentsOfFile: "./inputs/day01.txt");
     let lines = input.split(separator:"\n")
     
