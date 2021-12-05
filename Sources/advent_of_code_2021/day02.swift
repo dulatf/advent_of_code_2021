@@ -21,7 +21,6 @@ func parse_command(command: String.SubSequence) -> Command?{
     return nil;
 }
 func day02(){
-    print("Day 02")
     let input = try! String(contentsOfFile: "./inputs/day02.txt");
     let lines = input.split(separator:"\n")
     let directions = lines.map(parse_command).compactMap { $0 }
